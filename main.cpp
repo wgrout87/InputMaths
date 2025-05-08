@@ -12,8 +12,11 @@ int main ()
     int num2{};
     std::cin >> num2;
 
-    std::cout << num1 << " + " << num2 << " is " << num1 + num2;
-    std::cout << num1 << " - " << num2 << " is " << num1 - num2;
+    std::cout << num1 << " + " << num2 << " is " << num1 + num2 << '\n';
+    std::cout << num1 << " - " << num2 << " is " << num1 - num2 << '\n';
+
+    std::cout << num1 << " x " << num2 << " is " << num1 * num2 << '\n';
+    std::cout << num1 << " / " << num2 << " is " << num1 / num2 << '\n';
 
     return 0;
 }
