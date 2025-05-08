@@ -16,7 +16,7 @@ int main ()
     std::cout << num1 << " - " << num2 << " is " << num1 - num2 << '\n';
 
     std::cout << num1 << " x " << num2 << " is " << num1 * num2 << '\n';
-    std::cout << num1 << " / " << num2 << " is " << num1 / num2 << '\n';
+    std::cout << num1 << " / " << num2 << " is " << num1 / num2 << " (rounded down)" << '\n';
 
     return 0;
 }
